@@ -1,6 +1,6 @@
 import { View, Text, TouchableOpacity,StyleSheet, Image } from 'react-native'
 import React from 'react'
-import ScreenWrapper from '@/components/Screenwrapper'
+import ScreenWrapper from '@/components/ScreenWrapper'
 import Typo from '@/components/Typo'
 import { colors, spacingX, spacingY } from '@/constants/theme'
 import { verticalScale } from '@/utils/styling'
@@ -43,7 +43,7 @@ const welcome = () => {
             entering={FadeIn.duration(1000).delay(100).springify().damping(12)}
             style={{ alignItems: "center" , gap:2}}>
                 <Typo size={17} color={colors.text}>
-                    Finances mnust be arranged to set a better
+                    Finances must be arranged to set a better
                 </Typo>
                 <Typo size={17} color={colors.text}>
                     lifestyle in future
